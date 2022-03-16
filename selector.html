@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div>p{
+            background-color: orange;
+        }
+        div+p{
+            background-color: greenyellow;
+        }
+        p.intro::first-letter{
+            font-size: 70px;
+        }
+        p.intro1::first-line{
+            font-weight: bolder;
+        }
+        a:link{
+            color: red;
+        }
+        a:hover{
+            color: hotpink;
+        }
+        a:visited{
+            color: turquoise;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="items">
+                    <p>This is another p</p>
+                </li>
+            </ul>
+            <p >HTML is a markup language</p>
+        </div>
+        <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, blanditiis recusandae, ipsum ut vero
+            dolores,
+            quam quo ratione nostrum quia neque.</p>
+    </div>
+    <p class="intro1">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum vel dolor amet fugiat error, unde nemo
+        blanditiis consequuntur sed porro distinctio hic alias provident voluptatibus consectetur aliquid nesciunt dicta
+        nulla.</p>
+        <a href="https://www.google.com/">Google</a>
+        <a href="fb.com">Facebook</a>
+</body>
+
+</html>

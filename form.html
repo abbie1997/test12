@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="nam"> UserName: <input type="text" name="Name" id="nam" required></label>
+        <br><br>    
+        <label for="psd">Password:
+            <input type="password" name="Psw" id="psd" required> 
+        </label>
+        <br><br>
+        <textarea name="Comments" cols="30" rows="10">Enter your comments</textarea>
+        <p>Gender:
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="Female">Female
+            <input type="radio" name="Gender" value="others">Others
+        </p>
+        <p>Hobbies:
+            <input type="checkbox" name="Hob" value="Arts">Arts
+            <input type="checkbox" name="Hob" value="Photography">Photography
+            <input type="checkbox" name="Hob" value="Books reading">Books reading
+        </p>
+        <p>Select your department:
+            <select name="depart">
+                <option value="Ubit">UBIT</option>
+                <option value="MassComm">Mass Communication</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="IBA">IBA </option>
+            </select>
+        </p>
+       
+        <input type="file" name="resume"><br><br>
+
+        <input type="submit" name="Submit"><br><br>
+        <input type="image" src="button.jfif" height="60px" width="135px">
+        <button>Upload</button><br>
+        <input type="date" name="Date" id="">
+        <input type="email" name="Email" id=""><br>
+        <input type="url" name="URL" id="">
+
+    </form>
+</body>
+</html>
